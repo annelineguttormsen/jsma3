@@ -1,0 +1,44 @@
+In your own words, describe what JavaScript Code Style is.
+
+
+What is a Regular Expression?
+Regular Expression er en måte å definere en søkemetode. RegEx kan blant annet finne
+og erstatte, den kan sjekke for riktige type karakterer (bokstav, nummer, spesiell
+karakter) og finne mange eller spesifikke karakterer på visse betingelser (f.eks. stor bokstav,
+liten bokstav, ignorer).
+
+What does the .random() method do?
+Math.random() gir tilbake et semi-tilfeldig desimaltall mellom 0 og 1. Funksjonen gir aldri
+ut verdien 1.
+
+What does the .sort() method do?
+Sort funksjonen sorterer en array basert på funksjonen passert som argument, hvis den er tom 
+sorteres listen automatisk alfabetisk. Funksjonen lager ikke en ny array men forandrer på
+selve arrayen.
+
+What does the .reverse() method do?
+Reverse funksjonen reverserer posisjonene til elementer i en array.
+
+List two examples of bad JavaScript code.
+var dytt = 1;
+function fullrunonsentencewithnocapitalization() {
+   document.getElementsByTagName("p")["0"].style.marginTop = dytt + "px";
+   dytt++;
+   setInterval(fullrunonsentencewithnocapitalization,100);
+}fullrunonsentencewithnocapitalization();
+//altfor langt ikke-beskrivende funksjonsnavn uten store forbokstaver
+//bruk av setinterval som tilkaller samme funksjon den er i, som genererer uendelige funksjoner
+//generelt en dårlig idé å lage animasjoner eller lignende via js
+
+What data types can a JSON object contain?
+JSON kan inneholde strings, boolean, objekter, array, nummer eller null. Et
+JSON objekt kan ikke inneholde funksjoner, i motsetning til Javascript.
+
+What is minifying JavaScript Code?
+"Minifying JavaScript code" er å fjerne alle unødvendige variabler, white space, 
+ubrukelig kode og kortere variabelnavn. Dette for å minimere koden og gjøre 
+filstørrelsen mindre
+
+What is a global variable?
+En global variabel er en variabel som er oftest skrevet inn først i koden i JS,
+den er tilgjengelig for alle funskjoner og objekter osv.
