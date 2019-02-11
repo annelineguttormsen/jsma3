@@ -1,11 +1,12 @@
 In your own words, describe what JavaScript Code Style is.
-
+Ordentlig intentation, beskrivende navn på funksjoner/variabler/klasser/objekter,
+ikke-repeterende statements og kommentarer til kode.
 
 What is a Regular Expression?
 Regular Expression er en måte å definere en søkemetode. RegEx kan blant annet finne
 og erstatte, den kan sjekke for riktige type karakterer (bokstav, nummer, spesiell
 karakter) og finne mange eller spesifikke karakterer på visse betingelser (f.eks. stor bokstav,
-liten bokstav, ignorer).
+liten bokstav).
 
 What does the .random() method do?
 Math.random() gir tilbake et semi-tilfeldig desimaltall mellom 0 og 1. Funksjonen gir aldri
